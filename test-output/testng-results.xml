@@ -2,31 +2,31 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56" started-at="2019-06-13T06:33:07Z" finished-at="2019-06-13T06:33:07Z">
+  <suite name="Default suite" duration-ms="44" started-at="2019-06-13T11:33:47Z" finished-at="2019-06-13T11:33:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56" started-at="2019-06-13T06:33:07Z" finished-at="2019-06-13T06:33:07Z">
+    <test name="Default test" duration-ms="44" started-at="2019-06-13T11:33:47Z" finished-at="2019-06-13T11:33:47Z">
       <class name="ReportsExtent.Newreports">
-        <test-method status="PASS" signature="setupReport()[pri:0, instance:ReportsExtent.Newreports@1ab3a8c8]" name="setupReport" is-config="true" duration-ms="169" started-at="2019-06-13T06:33:07Z" finished-at="2019-06-13T06:33:07Z">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:ReportsExtent.Newreports@1a968a59]" name="setupReport" is-config="true" duration-ms="211" started-at="2019-06-13T11:33:47Z" finished-at="2019-06-13T11:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method status="PASS" signature="PassTestCase()[pri:1, instance:ReportsExtent.Newreports@1ab3a8c8]" name="PassTestCase" duration-ms="13" started-at="2019-06-13T06:33:07Z" finished-at="2019-06-13T06:33:07Z">
+        <test-method status="PASS" signature="PassTestCase()[pri:1, instance:ReportsExtent.Newreports@1a968a59]" name="PassTestCase" duration-ms="14" started-at="2019-06-13T11:33:47Z" finished-at="2019-06-13T11:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PassTestCase -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportsExtent.Newreports@1ab3a8c8]" name="getResult" is-config="true" duration-ms="2" started-at="2019-06-13T06:33:07Z" finished-at="2019-06-13T06:33:07Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportsExtent.Newreports@1a968a59]" name="getResult" is-config="true" duration-ms="1" started-at="2019-06-13T11:33:47Z" finished-at="2019-06-13T11:33:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=PassTestCase status=SUCCESS method=Newreports.PassTestCase()[pri:1, instance:ReportsExtent.Newreports@1ab3a8c8] output={null}]]]>
+                <![CDATA[[TestResult name=PassTestCase status=SUCCESS method=Newreports.PassTestCase()[pri:1, instance:ReportsExtent.Newreports@1a968a59] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="FailTestCase()[pri:2, instance:ReportsExtent.Newreports@1ab3a8c8]" name="FailTestCase" duration-ms="3" started-at="2019-06-13T06:33:07Z" finished-at="2019-06-13T06:33:07Z">
+        <test-method status="FAIL" signature="FailTestCase()[pri:2, instance:ReportsExtent.Newreports@1a968a59]" name="FailTestCase" duration-ms="1" started-at="2019-06-13T11:33:47Z" finished-at="2019-06-13T11:33:47Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -69,18 +69,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FailTestCase -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportsExtent.Newreports@1ab3a8c8]" name="getResult" is-config="true" duration-ms="14" started-at="2019-06-13T06:33:07Z" finished-at="2019-06-13T06:33:07Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportsExtent.Newreports@1a968a59]" name="getResult" is-config="true" duration-ms="9" started-at="2019-06-13T11:33:47Z" finished-at="2019-06-13T11:33:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=FailTestCase status=FAILURE method=Newreports.FailTestCase()[pri:2, instance:ReportsExtent.Newreports@1ab3a8c8] output={null}]]]>
+                <![CDATA[[TestResult name=FailTestCase status=FAILURE method=Newreports.FailTestCase()[pri:2, instance:ReportsExtent.Newreports@1a968a59] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="SKIP" signature="SkipTestCase()[pri:3, instance:ReportsExtent.Newreports@1ab3a8c8]" name="SkipTestCase" duration-ms="2" started-at="2019-06-13T06:33:07Z" finished-at="2019-06-13T06:33:07Z">
+        <test-method status="SKIP" signature="SkipTestCase()[pri:3, instance:ReportsExtent.Newreports@1a968a59]" name="SkipTestCase" duration-ms="1" started-at="2019-06-13T11:33:47Z" finished-at="2019-06-13T11:33:47Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping - This is not ready for testing]]>
@@ -119,18 +119,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SkipTestCase -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportsExtent.Newreports@1ab3a8c8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-06-13T06:33:07Z" finished-at="2019-06-13T06:33:07Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportsExtent.Newreports@1a968a59]" name="getResult" is-config="true" duration-ms="1" started-at="2019-06-13T11:33:47Z" finished-at="2019-06-13T11:33:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SkipTestCase status=SKIP method=Newreports.SkipTestCase()[pri:3, instance:ReportsExtent.Newreports@1ab3a8c8] output={null}]]]>
+                <![CDATA[[TestResult name=SkipTestCase status=SKIP method=Newreports.SkipTestCase()[pri:3, instance:ReportsExtent.Newreports@1a968a59] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:ReportsExtent.Newreports@1ab3a8c8]" name="endReport" is-config="true" duration-ms="261" started-at="2019-06-13T06:33:07Z" finished-at="2019-06-13T06:33:08Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:ReportsExtent.Newreports@1a968a59]" name="endReport" is-config="true" duration-ms="209" started-at="2019-06-13T11:33:47Z" finished-at="2019-06-13T11:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
