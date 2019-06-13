@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Test">
+
+		<groups>
+			<define name="Regression1">
+				<include name="smoke"/>
+				<include name ="regression"/>
+			</define>
+			
+			<define name="Regression2">
+				<include name="sanity"/>
+			</define>
+			
+			<run>
+				<include name="Regression1"/>
+				<include name="Regression2"/>
+			</run> 
+		</groups>
+		
+		<classes>
+			<class name="TestNGBasic.Groupex"/>
+		</classes>
+	</test>
+</suite>
+

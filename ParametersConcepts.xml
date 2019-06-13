@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+
+		<!-- <parameter name="browser" value="Chrome" /> -->
+		<parameter name="username" value="Prakash" />
+		<parameter name="username" value="siva" />
+		<parameter name="password" value="Panidan" />
+		<parameter name="password" value="sankar" />
+
+		<!-- all the vlaues commented -->
+
+		<classes>
+			<class name="TestNGBasic.Parameters" />
+		</classes>
+
+	</test>
+</suite> 
+
+
+// its taking 2nd values in the parameter not an 1st value... if the both name are same... y its taking 2 values
+// dont know have analyze ya... but the real scenario it will not like that... 
+
+// any other doubts..? no i will check and tell you il stop sharing -- ok lunch ? 1 clk ??? ok okkkkk i  will call bring cash i have 500rs ya --??????  ok il be back il inform u once am started lunch 
